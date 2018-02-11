@@ -1,15 +1,33 @@
 {
 	"projects": [{
-			"name": "test_1",
+			"name": "Gniknalp",
 			"description": "planking experiment",
-			"type": "photocontent",
-			"page": "test_1.html"
+			"type": "textocontent",
+			"page": "https://gniknalp.tumblr.com"
 		},
 		{
-			"name": "test_2",
+			"name": "63206",
 			"description": "senseless repetition",
 			"type": "textocontent",
-			"page": "test_1.html"
+			"page": "projects/63206/63206.html"
+		},		
+		{
+			"name": "Kim Jong 4",
+			"description": "Punk from Pyongyang",
+			"type": "audiocontent",
+			"page": "https://kimjongfour.bandcamp.com"
+		},	
+		{
+			"name": "Fuck QG",
+			"description": "doigt d'honneur",
+			"type": "textocontent",
+			"page": "projects/fuckqg/fuckqg.pdf"
+		},
+		{
+			"name": "D.E.A.B",
+			"description": "Ongoing musical project",
+			"type": "audiocontent",
+			"page": "https://deab.bandcamp.com"
 		}
 	]
 }

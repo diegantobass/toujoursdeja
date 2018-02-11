@@ -31,3 +31,32 @@ function hideProjects(type, indexType, valueType){
 	    }			    
 	});
 };
+
+function createProject(project){
+	var a = document.createElement('a');
+	var td = document.createElement('td');
+	var p1 = document.createElement('p');
+	var p2 = document.createElement('p');
+	var div = document.createElement('div');
+	a.href = project.page;
+	td.className = project.type;
+	p2.className = "descript";
+	p1.innerHTML = project.name;
+	p2.innerHTML = project.description;
+	div.appendChild(p1);
+	div.appendChild(p2);
+	td.appendChild(div);
+	a.appendChild(td);
+	return a;
+};
+
+function createProjects(jsonFile){
+	var tr = document.createElement('tr');
+	$.getJSON(jsonFile, function(data){
+		$.each(data.projects, function(index, object) {
+  			var project = createProject(object);
+  			tr.appendChild(project);
+  		});
+  	});
+  	return tr;
+};

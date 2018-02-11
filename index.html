@@ -4,6 +4,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link type="text/css" rel="stylesheet" href="index.css"/>
 		<title>Ja per toujoù</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="index.js"></script>
 	</head>
 	<body>		
 		<div id="colonne">
@@ -25,33 +27,13 @@
 		</div>
 		<div>
 			<table id="mainframe">
-				<tbody>
-					<tr>
-						<td class="textocontent">
-							<a href="">Test 1</a>
-							<p class="descript">planking experiment</p>
-						</td>
-						<td class="photocontent">
-							<a href="">Test 2</a>
-							<p class="descript">wow such pictures</p>
-						</td>
-						<td class="photocontent">
-							<a href="">Test 3</a>
-							<p class="descript">wunderbairro incrivel</p>
-						</td>
-						<td class="textocontent">
-							<a href="">Test 4</a>
-							<p class="descript">senseless repetition</p>
-						</td>						
-						<td class="audiocontent">
-							<a href="">Test 5</a>
-							<p class="descript">senseless repetition</p>
-						</td>
-					</tr>
+				<tbody id="shelf">
+					<script>
+						projects = createProjects("projects.json");
+						document.getElementById("shelf").appendChild(projects);
+					</script>
 				</tbody>
 			</table>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="index.js"></script>
 	</body>
 </html>

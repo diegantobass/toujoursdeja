@@ -5,6 +5,14 @@ a {
 	text-decoration: none;
 }
 
+.title {
+	color: black;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
 .descript {
 	font-weight: bold;
 	font-family: Verdana;
@@ -12,6 +20,10 @@ a {
 	color: black;
 	text-align: right;
 	padding-top: 50px;
+}
+
+.project {
+	margin-top: -15px;
 }
 
 .photocontent {

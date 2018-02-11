@@ -40,7 +40,9 @@ function createProject(project){
 	var div = document.createElement('div');
 	a.href = project.page;
 	td.className = project.type;
+	p1.className = "title";
 	p2.className = "descript";
+	div.className = "project";
 	p1.innerHTML = project.name;
 	p2.innerHTML = project.description;
 	div.appendChild(p1);

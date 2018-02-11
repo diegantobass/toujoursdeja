@@ -56,12 +56,21 @@ a {
 	background-color: #DFBF72;
 }
 
+#introduction {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 153px;
+	padding-top: 10px;
+	padding-right: 150px;
+}
+
 #colonne {
 	float: left;
 	width: 100px;
 	height: 100%;
 	padding-left: 40px;
-	padding-top: 90px;
+	padding-top: 80px;
 	text-align: right;
 	font-size: 1.5em;
 	font-family: sans-serif;
@@ -69,8 +78,7 @@ a {
 }
 
 #mainframe {
-	padding-top: 10px;
-	padding-right: 15px;
+	padding-right: 20px;
 	max-width: 100%;
 }
 

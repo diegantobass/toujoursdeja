@@ -1,0 +1,90 @@
+a {
+	color: black;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.descript {
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 0.5em;
+	color: black;
+	text-align: right;
+	padding-top: 50px;
+}
+
+.photocontent {
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+	margin: 10px;
+	padding: 35px;
+	display: inline-block;
+	background-color: #93DDD2;
+}
+
+.textocontent {
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+	margin: 10px;
+	padding: 35px;
+	display: inline-block;
+	background-color: #E7B4BB;
+}
+
+.audiocontent {
+	width: 100px;
+	height: 100px;
+	border: 10px solid black;
+	margin: 10px;
+	padding: 35px;
+	display: inline-block;
+	background-color: #DFBF72;
+}
+
+#colonne {
+	float: left;
+	width: 100px;
+	height: 100%;
+	padding-left: 40px;
+	padding-top: 70px;
+	text-align: right;
+	font-size: 1.5em;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#mainframe {
+	padding-top: 10px;
+	padding-right: 15px;
+	max-width: 100%;
+}
+
+#sign {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#mail {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	margin-left: 30px;
+	margin-bottom: 20px;	
+	font-style: italic;
+	font-size: 0.5em;
+}
+
+
+
+
+
+
+
+
+

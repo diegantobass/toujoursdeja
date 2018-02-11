@@ -4,7 +4,6 @@
 .DS_Store
 
 #
-# folders
+# project folders
 #
-test_1
-test_2
+projects/

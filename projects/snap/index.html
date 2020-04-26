@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -141,20 +141,20 @@
 			}
 
 			function randomVert(){
-				var path = 'snaps/vertical/'; 
+				var path = '../../pictures/snaps/vertical/';
 			    var img1 = vertical[Math.floor(Math.random() * vertical.length)];
 			    var img2 = vertical[Math.floor(Math.random() * vertical.length)];
-			    
+
 			    return '<div style="background-color:black; width:50%; height:100%; float:left"><img src="' + path + img1 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:100%; float:left"><img src="' + path + img2 + '" alt = "" style="width: auto; height: 100%; align=right"></div>'
 			}
 
 			function randomHori() {
-				var path = 'snaps/horizontal/';
+				var path = '../../pictures/snaps/horizontal/';
 			    var img1 = horizontal[Math.floor(Math.random() * horizontal.length)];
 			    var img2 = horizontal[Math.floor(Math.random() * horizontal.length)];
 			    var img3 = horizontal[Math.floor(Math.random() * horizontal.length)];
 			    var img4 = horizontal[Math.floor(Math.random() * horizontal.length)];
-				
+
 				return '<div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img1 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img2 + '" alt = "" style="width: auto; height: 100%;" align="left"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img3 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img4 + '" alt = "" style="width: auto; height: 100%;" align="left"></div>'
 			}
 			vertOrHori();

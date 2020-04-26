@@ -69,13 +69,19 @@
 			"name": "Trashmirror",
 			"description": "Selfies in trash mirrors",
 			"type": "photocontent",
-			"page": "projects/trashmirror/trashmirror.html"
+			"page": "projects/trashmirror/"
 		},
 		{
 			"name": "Morceaux choisis",
 			"description": "Pictures from internet",
 			"type": "photocontent",
 			"page": "projects/morceauxchoisis/index.html"
+		},
+		{
+			"name": "Voix de Garage",
+			"description": "Garage Punk Podcast",
+			"type": "textocontent",
+			"page": "projects/voixdegarage/"
 		}
 	]
 }

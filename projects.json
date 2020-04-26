@@ -60,12 +60,6 @@
 			"page": "projects/theother/theother.html"
 		},
 		{
-			"name": "Boinod",
-			"description": "Home is where the data is",
-			"type": "textocontent",
-			"page": "nextcloud"
-		},
-		{
 			"name": "Trashmirror",
 			"description": "Selfies in trash mirrors",
 			"type": "photocontent",
@@ -80,7 +74,7 @@
 		{
 			"name": "Voix de Garage",
 			"description": "Garage Punk Podcast",
-			"type": "textocontent",
+			"type": "audiocontent",
 			"page": "projects/voixdegarage/"
 		}
 	]

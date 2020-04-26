@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meishi Koukan</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="meishikoukan.css"/>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/flip.js"></script>
+		<script src="js/utils.js"></script>
+	</head>
+	<body>
+		<div id="introduction">
+			<p>These are not just the business cards my japanese self keeps collecting.</p>
+			<p>The simple ritual of giving me your business card is nothing but a pebble on the serpentine road that goes from the tree that gave the resources to make it, to your wallet, through my flatbed scanner and canny edge-detector picture auto-cropper, to internet and beyond.</p>
+			<p>Respect the thickness of your own rituals. Thence comes composure.</p>
+		</div>
+		<table>
+			<tr id='gallery'></tr>
+		</table>
+		<script type="text/javascript">
+			function pad_with_zeroes(number, length) {
+			    var my_string = '' + number;
+			    while (my_string.length < length) {
+			        my_string = '0' + my_string;
+			    }
+			    return my_string;
+			}
+			function createImages() {
+				for (var i = 1; i <= 291; i++) {
+					var section = document.createElement('section');
+					section.className = 'container';
+					var didi = document.createElement('div');
+					didi.className = "card";
+					var idcount = "card" + i;
+					didi.setAttribute("id", idcount);
+					var front = document.createElement('figure');
+					front.className = 'front';
+					var back = document.createElement('figure');
+					back.className = 'back';
+					var frontpic = document.createElement('img');
+					frontpic.src = "pictures/" + pad_with_zeroes(i, 3) + "_front.jpg";
+					var backpic = document.createElement('img');
+					backpic.src = "pictures/" + pad_with_zeroes(i, 3) + "_back.jpg";
+
+					front.appendChild(frontpic);
+					back.appendChild(backpic);
+					didi.appendChild(front);
+					didi.appendChild(back);
+					section.appendChild(didi);
+					document.getElementById('gallery').appendChild(section);
+				}
+			}
+			createImages();
+		</script>
+	</body>
+</html>

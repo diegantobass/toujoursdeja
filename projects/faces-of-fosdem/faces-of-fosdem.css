@@ -1,0 +1,46 @@
+html{
+	background-color: #000000;
+}
+
+table {
+	margin-top: 72px;
+	margin-left: 13px;
+	padding-right: 17px;
+}
+
+tr {
+	display: inline;
+}
+
+td {
+  border: 40px solid white;
+  background-color: white;
+}
+
+.wrap {
+  position: relative;
+}
+
+.descript {
+  position: absolute;
+  bottom: 6px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(50,50,50, 0.72);
+  color: #FFFFFF;
+  visibility: none;
+  opacity: 0;
+}
+
+.textdescript {
+	text-align: center;
+	padding-top: 50%;
+  font-family: sans-serif;
+}
+
+
+.wrap:hover .descript {
+  visibility: visible;
+  opacity: 0.72;
+}

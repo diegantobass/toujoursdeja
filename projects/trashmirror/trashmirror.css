@@ -1,0 +1,38 @@
+#introduction {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin : 50px;
+  padding-right: 150px;
+}
+
+#gallery {
+  margin-left: 50px;
+  position: absolute;
+}
+
+.container { 
+	width: 600px;
+  height: 600px;
+  display: inline-block;
+  text-align: center;
+  padding-right: 30px;
+}
+
+.card {
+  width: 550px;
+  height: 550px;
+  position: relative;
+}
+
+img {
+	width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,62 @@
+#gallery {
+	max-width: 50%;
+	position: relative;
+}
+
+.container { 
+	width: 400px;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  perspective: 1000px;
+  padding-right: 30px;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+}
+
+img {
+	width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card figure {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card .front {
+  /*transform: rotateY( 180deg );*/
+}
+
+.card .back {
+  transform: rotateX( 180deg );
+}
+
+.card.flipped {
+  transform: rotateX( 180deg );
+  backface-visibility: hidden;
+}
+
+#introduction {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin : 50px;
+  padding-right: 150px;
+}

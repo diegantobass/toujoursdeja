@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trash Mirror Selfies</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="trashmirror.css"/>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/utils.js"></script>
+	</head>
+	<body>
+		<div id="introduction">I see myself in the trash you throw away.</div>
+		<table>
+			<tr id='gallery'></tr>
+		</table>
+		<script type="text/javascript">
+			function createImages() {
+				pictures = ['IMG_20161128_094130_461.jpg', 'IMG_20161201_092835_323.jpg', 'IMG_20161202_180314_107.jpg', 'IMG_20161209_151852_572.jpg', 'IMG_20161210_131024_335.jpg', 'IMG_20161210_133516_811.jpg', 'IMG_20161217_125913_259.jpg', 'IMG_20170216_090505_650.jpg', 'IMG_20170222_151702_198.jpg', 'IMG_20170226_181335_765.jpg', 'IMG_20170313_085456_145.jpg', 'IMG_20170314_213539_953.jpg', 'IMG_20170318_123920_046.jpg', 'IMG_20170326_183427.jpg', 'IMG_20170326_185541.jpg', 'IMG_20170327_094124_070.jpg', 'IMG_20170327_180941.jpg', 'IMG_20170401_170909.jpg', 'IMG_20170405_165651.jpg', 'IMG_20170406_182100.jpg', 'IMG_20170413_135607.jpg', 'IMG_20170415_143343.jpg', 'IMG_20170415_194903.jpg', 'IMG_20170419_090317.jpg', 'IMG_20170422_160014.jpg', 'IMG_20170422_160130.jpg', 'IMG_20170424_091629.jpg', 'IMG_20170424_143321.jpg', 'IMG_20170512_122031.jpg', 'IMG_20170518_172540.jpg', 'IMG_20170522_092755.jpg', 'IMG_20170530_172731.jpg', 'IMG_20170601_191626.jpg', 'IMG_20170606_181017.jpg', 'IMG_20170608_082950.jpg', 'IMG_20170611_112556.jpg', 'IMG_20170624_141301.jpg', 'IMG_20170624_144232.jpg', 'IMG_20170625_153324.jpg', 'IMG_20170629_184709.jpg', 'IMG_20170630_192406.jpg', 'IMG_20170701_171113.jpg', 'IMG_20170702_163356.jpg', 'IMG_20170706_084501.jpg', 'IMG_20170706_165550.jpg', 'IMG_20170706_181214.jpg', 'IMG_20170708_202956.jpg', 'IMG_20170711_092228.jpg', 'IMG_20170713_124011.jpg', 'IMG_20170713_124109.jpg', 'IMG_20170718_174011.jpg', 'IMG_20170720_182018.jpg', 'IMG_20170722_164523.jpg', 'IMG_20170722_225202.jpg', 'IMG_20170726_091844.jpg', 'IMG_20170824_084357_454.jpg', 'IMG_20170824_125909_461.jpg', 'IMG_20170826_151820_977.jpg', 'IMG_20170830_091009_986right.jpg', 'IMG_20170830_095351_539.jpg', 'IMG_20170830_170218_565.jpg', 'IMG_20170830_171853_188.jpg', 'IMG_20170831_165801_168d.jpg', 'IMG_20170831_171402_866.jpg', 'IMG_20170831_171833_739.jpg', 'IMG_20170902_163740_238.jpg', 'IMG_20170902_163801_156.jpg', 'IMG_20170904_142811_669lala.jpg', 'IMG_20171025_172008.jpg', 'IMG_20171204_234929.jpg', 'IMG_20171207_084003.jpg', 'IMG_20171210_165605.jpg', 'IMG_20171218_171657.jpg', 'IMG_20180117_174738.jpg', 'IMG_20180218_160149.jpg', 'IMG_20180223_091519.jpg', 'IMG_20180224_102252.jpg', 'IMG_20180228_180217.jpg', 'IMG_20180228_180236.jpg', 'IMG_20180312_143411.jpg', 'IMG_20180330_091044.jpg', 'IMG_20180330_105118.jpg', 'IMG_20180330_174311.jpg', 'IMG_20180427_131553.jpg', 'IMG_20180427_132056.jpg', 'IMG_20180430_172428lala.jpg', 'IMG_20180502_090649.jpg', 'IMG_20180521_170050.jpg', 'IMG_20180524_164128.jpg', 'IMG_20180530_091924left.jpg', 'IMG_20180618_171217.jpg', 'IMG_20180623_104424.jpg', 'IMG_20180624_141102.jpg', 'IMG_20180624_160811.jpg', 'IMG_20180702_154047.jpg', 'IMG_20180705_150717.jpg', 'IMG_20180706_083430.jpg', 'IMG_20180710_091448.jpg', 'IMG_20180711_181933.jpg', 'IMG_20180713_140454.jpg', 'IMG_20180715_165258.jpg', 'IMG_20180719_173350.jpg', 'IMG_20180726_164252.jpg', 'IMG_20180728_170910.jpg', 'IMG_20180802_094449.jpg', 'IMG_20180804_171713.jpg', 'IMG_20180804_205534.jpg', 'IMG_20180808_103442.jpg', 'IMG_20180824_172359.jpg', 'IMG_20180828_155223.jpg', 'IMG_20180905_173007.jpg', 'IMG_20180905_174600.jpg', 'IMG_20180906_144042.jpg', 'IMG_20180910_092347.jpg', 'IMG_20180911_091448.jpg', 'IMG_20180912_182908.jpg', 'IMG_20180912_190323.jpg', 'IMG_20180915_101832.jpg', 'IMG_20180915_102153rato.jpg', 'IMG_20180917_173555.jpg', 'IMG_20180919_084823.jpg', 'IMG_20180924_184716.jpg', 'IMG_20180926_183037.jpg', 'IMG_20181002_095145.jpg', 'IMG_20181005_210217.jpg', 'IMG_20181024_182928.jpg', 'IMG_20181031_091113.jpg', 'IMG_20181230_144810.jpg', 'IMG_20190104_151450.jpg', 'IMG_20190115_141028.jpg', 'IMG_20190116_140215.jpg']
+				for (var x in pictures) {
+					var section = document.createElement('section');
+					section.className = 'container';
+					var didi = document.createElement('div');
+					didi.className = "card";
+					var idcount = "card" + x;
+					didi.setAttribute("id", idcount);
+					var pic = document.createElement('img');
+					pic.src = "pictures/" + pictures[x];
+
+					didi.appendChild(pic);
+					section.appendChild(didi);
+					document.getElementById('gallery').appendChild(section);
+				}
+			}
+			createImages();
+		</script>
+	</body>
+</html>

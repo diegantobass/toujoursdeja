@@ -1,9 +1,12 @@
-#
-# DS_Store
-#
-.DS_Store
-
-#
-# project folders
-#
-projects/
+.git
+.gitignore
+/todo/
+/projects/cosmic-trip/pictures
+/projects/faces-of-fosdem/pictures
+/projects/meishikoukan/pictures
+/projects/morceauxchoisis/wdir_pictures
+/projects/morceauxchoisis/pictures
+/projects/morceauxchoisis/old_archive
+/projects/snap/snaps
+/projects/theother/pictures
+/projects/trashmirror/pictures

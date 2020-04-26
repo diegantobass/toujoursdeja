@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Snap - How low can you go?</title>
+	</head>
+	<body>
+		<style type="text/css">
+			html,body {
+		        padding: 0;
+		        margin: 0;
+		        height: 100%;
+		        min-height: 100%;
+		    }
+
+		    #reload {
+		    	position: absolute;
+		    	z-index: 99;
+		    	left: 43%;
+		    	top: 37%;
+		    }
+		</style>
+		<img id="reload" src="reload.png"/>
+		<script>
+			var vertical = [
+				"scaled.cut-101.jpeg",
+				"scaled.cut-102.jpeg",
+				"scaled.cut-104.jpeg",
+				"scaled.cut-105.jpeg",
+				"scaled.cut-108.jpeg",
+				"scaled.cut-109.jpeg",
+				"scaled.cut-11.jpeg",
+				"scaled.cut-110.jpeg",
+				"scaled.cut-111.jpeg",
+				"scaled.cut-112.jpeg",
+				"scaled.cut-113.jpeg",
+				"scaled.cut-114.jpeg",
+				"scaled.cut-12.jpeg",
+				"scaled.cut-14.jpeg",
+				"scaled.cut-15.jpeg",
+				"scaled.cut-19.jpeg",
+				"scaled.cut-24.jpeg",
+				"scaled.cut-25.jpeg",
+				"scaled.cut-26.jpeg",
+				"scaled.cut-29.jpeg",
+				"scaled.cut-3.jpeg",
+				"scaled.cut-30.jpeg",
+				"scaled.cut-32.jpeg",
+				"scaled.cut-35.jpeg",
+				"scaled.cut-43.jpeg",
+				"scaled.cut-46.jpeg",
+				"scaled.cut-50.jpeg",
+				"scaled.cut-51.jpeg",
+				"scaled.cut-53.jpeg",
+				"scaled.cut-54.jpeg",
+				"scaled.cut-58.jpeg",
+				"scaled.cut-60.jpeg",
+				"scaled.cut-63.jpeg",
+				"scaled.cut-64.jpeg",
+				"scaled.cut-65.jpeg",
+				"scaled.cut-66.jpeg",
+				"scaled.cut-68.jpeg",
+				"scaled.cut-71.jpeg",
+				"scaled.cut-72.jpeg",
+				"scaled.cut-75.jpeg",
+				"scaled.cut-76.jpeg",
+				"scaled.cut-78.jpeg",
+				"scaled.cut-79.jpeg",
+				"scaled.cut-81.jpeg",
+				"scaled.cut-89.jpeg",
+				"scaled.cut-90.jpeg",
+				"scaled.cut-91.jpeg",
+				"scaled.cut-92.jpeg",
+				"scaled.cut-93.jpeg",
+				"scaled.cut-94.jpeg",
+				"scaled.cut-95.jpeg",
+				"scaled.cut-96.jpeg",
+				"scaled.cut-98.jpeg",
+				"scaled.cut-99.jpeg"
+			];
+
+			var horizontal = [
+				"scaled.cut-1.jpeg",
+				"scaled.cut-10.jpeg",
+				"scaled.cut-100.jpeg",
+				"scaled.cut-106.jpeg",
+				"scaled.cut-107.jpeg",
+				"scaled.cut-16.jpeg",
+				"scaled.cut-17.jpeg",
+				"scaled.cut-18.jpeg",
+				"scaled.cut-20.jpeg",
+				"scaled.cut-21.jpeg",
+				"scaled.cut-22.jpeg",
+				"scaled.cut-23.jpeg",
+				"scaled.cut-27.jpeg",
+				"scaled.cut-28.jpeg",
+				"scaled.cut-34.jpeg",
+				"scaled.cut-36.jpeg",
+				"scaled.cut-39.jpeg",
+				"scaled.cut-4.jpeg",
+				"scaled.cut-40.jpeg",
+				"scaled.cut-41.jpeg",
+				"scaled.cut-42.jpeg",
+				"scaled.cut-44.jpeg",
+				"scaled.cut-47.jpeg",
+				"scaled.cut-49.jpeg",
+				"scaled.cut-5.jpeg",
+				"scaled.cut-52.jpeg",
+				"scaled.cut-55.jpeg",
+				"scaled.cut-56.jpeg",
+				"scaled.cut-57.jpeg",
+				"scaled.cut-59.jpeg",
+				"scaled.cut-61.jpeg",
+				"scaled.cut-67.jpeg",
+				"scaled.cut-69.jpeg",
+				"scaled.cut-7.jpeg",
+				"scaled.cut-70.jpeg",
+				"scaled.cut-74.jpeg",
+				"scaled.cut-77.jpeg",
+				"scaled.cut-80.jpeg",
+				"scaled.cut-82.jpeg",
+				"scaled.cut-83.jpeg",
+				"scaled.cut-84.jpeg",
+				"scaled.cut-85.jpeg",
+				"scaled.cut-86.jpeg",
+				"scaled.cut-87.jpeg",
+				"scaled.cut-88.jpeg",
+				"scaled.cut-9.jpeg"
+			];
+
+			function vertOrHori(){
+				var coin = Math.floor(Math.random() * 2) + 1;
+				if (coin === 1){
+					document.write(randomVert());
+					document.close();
+				}
+				else {
+					document.write(randomHori());
+					document.close();
+				}
+			}
+
+			function randomVert(){
+				var path = 'snaps/vertical/'; 
+			    var img1 = vertical[Math.floor(Math.random() * vertical.length)];
+			    var img2 = vertical[Math.floor(Math.random() * vertical.length)];
+			    
+			    return '<div style="background-color:black; width:50%; height:100%; float:left"><img src="' + path + img1 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:100%; float:left"><img src="' + path + img2 + '" alt = "" style="width: auto; height: 100%; align=right"></div>'
+			}
+
+			function randomHori() {
+				var path = 'snaps/horizontal/';
+			    var img1 = horizontal[Math.floor(Math.random() * horizontal.length)];
+			    var img2 = horizontal[Math.floor(Math.random() * horizontal.length)];
+			    var img3 = horizontal[Math.floor(Math.random() * horizontal.length)];
+			    var img4 = horizontal[Math.floor(Math.random() * horizontal.length)];
+				
+				return '<div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img1 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img2 + '" alt = "" style="width: auto; height: 100%;" align="left"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img3 + '" alt = "" style="width: auto; height: 100%;" align="right"></div><div style="background-color:black; width:50%; height:50%; float:left"><img src="' + path + img4 + '" alt = "" style="width: auto; height: 100%;" align="left"></div>'
+			}
+			vertOrHori();
+		</script>
+	</body>
+</html>

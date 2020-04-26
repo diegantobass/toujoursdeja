@@ -1,0 +1,10 @@
+p.number {
+	font-family: Verdana;
+}
+
+div.content {
+	width: 90%;
+	word-wrap: break-word;
+	border: 10px solid black;
+	padding: 10px
+}

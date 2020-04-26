@@ -1,0 +1,59 @@
+{
+	"projects": [{
+			"name": "Le Balcon",
+			"description": "Perché sur le balcon, haut sur Montmartre, un rare horizon enfin devant moi, je ne vois plus rien, qu'INTERNET écrit en lettre gigantesque sur la facade d'un immeuble en contrebas.",
+			"type": "slitray",
+			"pictures": "pictures/lebalcon/",
+			"number": 7
+		},
+		{
+			"name": "Le Barbecue",
+			"description": "T'y es un charafi, t'y es !",
+			"type": "slitray",
+			"pictures": "pictures/lebarbecue/",
+			"number": 9	 
+		},
+		{
+			"name": "Les Buttes",
+			"description": "Friends are for worlding together.",
+			"type": "slitray",
+			"pictures": "pictures/lesbuttes/",
+			"number": 10 
+		},
+		{
+			"name": "Grande Vue ",
+			"description": "La maison est en toi. La maison est ce que tu partages de ce qui est en toi.",
+			"type": "slitray",
+			"pictures": "pictures/grandevue/",
+			"number": 13
+		},
+		{
+			"name": "La Maison",
+			"description": "Tu es dans la maison.",
+			"type": "slitray",
+			"pictures": "pictures/lamaison/",
+			"number": 12 
+		},
+		{
+			"name": "La Rivière",
+			"description": "La rivière est un endroit où il est enfin possible de redevenir un corps. La difficulté physique d'accéder à un lieu isolé recompose les rapports entre les personnes et les choses.",
+			"type": "slitray",
+			"pictures": "pictures/lariviere/",
+			"number": 6 
+		},
+		{
+			"name": "La Rue",
+			"description": "L'espace commun, public, là où tout peut arriver mais où rarement quiconque ose faire arriver quoi que ce soit qui en vaille la peine.",
+			"type": "slitray",
+			"pictures": "pictures/larue/",
+			"number": 17 
+		},
+		{
+			"name": "If 6 was 9",
+			"description": "Once upon a time, an idea struck me: I could steal someone's soul if the film I took their picture on was big enough",
+			"type": "slitray",
+			"pictures": "pictures/69/",
+			"number": 11
+		}
+	]
+}

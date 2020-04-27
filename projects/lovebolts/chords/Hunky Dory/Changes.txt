@@ -1,0 +1,188 @@
+CHANGES from Hunky Dory 
+
+
+INTRO: Cmaj7  Dbadd6  Dm7  Eb7  
+       F  D  F  D 
+
+
+C			      Em
+I still don't know what I was waiting for
+       F		G
+And my time was running wild
+	  F
+A million dead end streets
+C			 Em
+Every time I thought I'd got it made 
+	      F		       G
+It seemed the taste was not so sweet 
+     Cmaj7    Dm7	   Em7  Ebm7
+So I turned myself to face me
+    Dm7			        G
+But I've never caught a glimpse
+	   Cmaj7       Dm7	 Em7  Ebm7
+Of how the others must see the faker
+	     Dm7		   
+I'm much too fast to take the test
+
+
+CHORUS:
+G 	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+F     F/E		  D
+Don't want to be a richer man
+G	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+F    F/E		D
+It's gonna have to be a different man
+F    C   Bb     F      C G     F     C
+Time may change me but I can't trace time
+
+
+C		      Em
+I watched the ripples change there size
+    F		       G	     F
+But never leave the stream of warm impermanence
+   C		      Em
+And so the days float thru my eyes 
+	      F		    G
+But still the days seem the same
+	  Cmaj7	   Dm7	    Em7
+And these children that you spit on
+   Ebm7 Dm7		    G
+As they try to change their worlds
+	Cmaj7	   Dm7       Em7
+Are immune to your consultations
+Ebm7		Dm7
+They're quite aware of what they're going thru
+
+
+CHORUS 2:
+G 	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+F     F/E		  D
+Don't want to be a richer man
+G	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+F		   F/E			    D
+Where's your shame you've left us up to our necks in it
+F    C   Bb     F      C G     F     C    F C 
+Time may change me but I can't trace time
+
+
+F			 C	    F  C
+Strange fascination, fascinate me
+   F	  		  G
+Oh changes are taking the pace I'm going thru
+
+
+CHORUS 3:
+G 	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+F     F/E		  D
+Don't want to be a richer man
+G	 F
+Ch-ch-ch-ch-changes
+C	 C/B	  C/A
+Turn and face the strange
+	C/G
+Ch-ch-changes
+
+Pretty soon now your gonna get older
+F    C   Bb     F      C G     F     C
+Time may change me but I can't trace time
+	    F    C   Bb	    F	   C G	   F	 C
+I said that time may change me but I can't trace time
+
+
+OUTRO:  Dm7  Em7  Eb7  Dm7  Dbm7  Cmaj7
+
+-----------------------------------------
+INTRO AND OUTRO: This song is fairly difficult to play on guitar. I don't think 
+there is any actual guitar in the record. When they performed it live Bowie used 
+to strum an acoustic and Ronson would come in on the chorus with overdrive and 
+beef it up just by playing the C major run down. The piano chords behind the sax 
+outro and the intro don't transpose to guitar very easily. Playing some of the 
+chords in different positions may help, like for example all as barres...
+
+       EADGBE
+       ------
+Cmaj7  X3545X
+Db7    X4646X
+Dm7    X5756X
+Eb7    X6868X
+
+You'll notice I've substituted a Db7 for the Dbadd6. It still sounds alright. 
+It's much easier to play like this. It also sounds better if you don't sound the 
+whole chords. Only the four middle strings. The high E string doesn't seem to 
+fit into that intro for some reason! 
+
+
+MAIN RIFF: The 'F' and 'D' bit with the saxophone playing. Live Mick Ronson used 
+to do it instead, with balls. So here are the notes:
+
+	  D        F
+	E-------------------
+	B-------------------
+	G-----2242-22222222-
+	D-0034-----33333333-
+	A----------33333333-
+	E----------11111111-
+
+
+The actual run is played over the 'D' chord and the 'F' chord is stabbed 
+afterwards.
+
+
+SAX OUTRO: Here it is transcribed for guitar as well as I could, but take 
+into consideration, different instruments don't always come across too well on 
+the guitar: 
+	  C  Dm7      Em7  Eb7      Dm7  Dbmaj7  Cmaj7
+	E--------------------------------------------
+	B--------------------------------------------
+	G--------------------------------------------
+	D-------------75-----------------3-2-3-2-3-2-
+	A-35775H7P535---75365H6P535-6535-------------
+	E--------------------------------------------
+
+The phrasing and timing will have to be left up to your ears and nimble fingers, 
+but all the notes are there for ya! 
+-----------------------------------------
+CHORDS:  EADGBE
+         ------
+G        320033
+Bb       X13331
+F/E      033211
+Dm7      XX0211
+Dbadd6   X4332X
+D        XX0232
+C/B      X22010
+Em       022000
+Dbm7     X46454
+F        133211
+C/A      X02010
+Em7      020000
+Ebm7     X68676
+C        X32010
+C/G      332010
+Eb7      XX1323
+Cmaj7    X32000

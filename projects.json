@@ -76,6 +76,12 @@
 			"description": "Garage Punk Podcast",
 			"type": "audiocontent",
 			"page": "projects/voixdegarage/"
+		},
+		{
+			"name": "Love Bolts",
+			"description": "David Bowie Chords",
+			"type": "audiocontent",
+			"page": "projects/lovebolts/"
 		}
 	]
 }

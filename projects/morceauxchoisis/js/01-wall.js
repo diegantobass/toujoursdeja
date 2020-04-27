@@ -11,7 +11,7 @@ window.addEvent("domready", function(){
                     callOnUpdate: function(items){
                         items.each(function(e, i){
                             var pictureNumber = randomizer.pop()
-                            var img = "img[src=pictures/" + pictureNumber + ".jpg]"
+                            var img = "img[src=../../pictures/morceauxchoisis/" + pictureNumber + ".jpg]"
                             var a = new Element(img);
                             a.inject(e.node).fade("hide").fade("in");
                             a.addEvent("dblclick", function(){
@@ -81,7 +81,7 @@ function generateAlbums(jsonAlbums){
 function launchGallery(item) {
 	var pswpElement = document.querySelectorAll('.pswp')[0];
 
-  var pictureIndexInItsAlbum = parseInt(albums[pictures[item].album].pictures.findIndex(x => x.src === 'pictures/' + item), 10);
+  var pictureIndexInItsAlbum = parseInt(albums[pictures[item].album].pictures.findIndex(x => x.src === '../../pictures/morceauxchoisis/' + item), 10);
   galleryItems = albums[pictures[item].album].pictures;
 
 	var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, galleryItems);

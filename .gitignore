@@ -2,9 +2,4 @@
 .gitignore
 /todo/
 /pictures
-/projects/faces-of-fosdem/pictures
-/projects/meishikoukan/pictures
-/projects/morceauxchoisis/wdir_pictures
-/projects/morceauxchoisis/pictures
-/projects/morceauxchoisis/old_archive
-/projects/theother/pictures
+/projects/morceauxchoisis/wdir

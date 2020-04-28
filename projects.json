@@ -68,7 +68,7 @@
 		{
 			"name": "Morceaux choisis",
 			"description": "Pictures from internet",
-			"type": "photocontent",
+			"type": "photocontent boost",
 			"page": "projects/morceauxchoisis/index.html"
 		},
 		{

@@ -88,3 +88,15 @@
 	font-style: italic;
 	font-size: 0.5em;
 }
+
+audio {
+	position: fixed;
+	right: 0;
+	top: 0;
+	margin-top: 25px;
+	margin-right: 30px;
+	-moz-border-radius:25px 25px 25px 25px ;
+	-webkit-border-radius:25px 25px 25px 25px ;
+	border-radius:25px 25px 25px 25px ;
+
+}

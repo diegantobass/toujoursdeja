@@ -15,7 +15,7 @@ function hideButtons(indexType, valueType){
 	    }
 	    else {
 	        value.style.visibility = "hidden";
-	    }		
+	    }
 	});
 };
 
@@ -28,7 +28,7 @@ function hideProjects(type, indexType, valueType){
 	    else {
 	    	// $("#"+type+"button")[0].style.color = "#808080"
 	        value.style.display = "none";
-	    }			    
+	    }
 	});
 };
 
@@ -39,7 +39,7 @@ function createProject(project){
 	var p2 = document.createElement('p');
 	var div = document.createElement('div');
 	a.href = project.page;
-	td.className = project.type;
+	td.className = "content " + project.type;
 	p1.className = "title";
 	p2.className = "descript";
 	div.className = "project";

@@ -82,6 +82,12 @@
 			"description": "David Bowie Chords",
 			"type": "audiocontent",
 			"page": "projects/lovebolts/"
+		},
+		{
+			"name": "Andrezieux",
+			"description": "Home is where the data is",
+			"type": "textocontent",
+			"page": "projects/andrezieux/"
 		}
 	]
 }

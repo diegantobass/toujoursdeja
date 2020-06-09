@@ -88,6 +88,12 @@
 			"description": "Home is where the data is",
 			"type": "textocontent",
 			"page": "https://andrezieux.freeboxos.fr/"
+		},
+		{
+			"name": "Videos",
+			"description": "Framerate is overrated",
+			"type": "audiocontent",
+			"page": "projects/videos/"
 		}
 	]
 }

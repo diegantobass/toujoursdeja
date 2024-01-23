@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Faces of FOSDEM 2023</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="facesoffosdem.css"/>
+		<script src="//code.jquery.com/jquery-latest.js"></script>
+		<script src="jquery-photo-resize.js"></script>
+		<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$("img").photoResize({
+				bottomSpacing: 15
+			});
+		});
+		</script>
+		<style type="text/css" media="screen">
+		body { text-align: left; }
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr id="gallery">
+				<script type="text/javascript">
+					for (i = 1; i < 67; i++) {
+
+   						var wrapper = document.createElement('td');
+   						wrapper.className = "wrap";
+
+						var film = document.createElement('div');
+						film.className = "film";
+						var img_film = document.createElement('img');
+   						img_film.src = "../../pictures/facesoffosdem/2023/film/" + i + ".JPG";
+
+						var digital = document.createElement('div');
+						digital.className = "digital";
+						var img_digital = document.createElement('img');
+   						img_digital.src = "../../pictures/facesoffosdem/2023/digital/" + i + ".JPG";
+
+						film.appendChild(img_film);
+						digital.appendChild(img_digital);
+						wrapper.appendChild(film);
+						wrapper.appendChild(digital);
+
+						document.getElementById("gallery").appendChild(wrapper);
+					}
+				</script>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

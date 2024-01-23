@@ -94,6 +94,12 @@
 			"description": "Framerate is overrated",
 			"type": "audiocontent",
 			"page": "projects/videos/"
+		},
+		{
+			"name": "Bou 2040",
+			"description": "Testing my svg game",
+			"type": "textocontent",
+			"page": "projects/bou2040/"
 		}
 	]
 }

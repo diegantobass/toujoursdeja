@@ -21,6 +21,20 @@ td {
   position: relative;
 }
 
+.wrap .digital {
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+
+.wrap:hover .digital {
+  visibility: visible;
+  opacity: 1;
+}
+
 .descript {
   position: absolute;
   bottom: 6px;
@@ -39,8 +53,7 @@ td {
   font-family: sans-serif;
 }
 
-
-.wrap:hover .descript {
+/* .wrap:hover .descript {
   visibility: visible;
   opacity: 0.72;
-}
+} */

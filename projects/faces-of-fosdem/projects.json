@@ -35,6 +35,12 @@
 			"description": "Fuji X100F",
 			"type": "photocontent",
 			"page": "2020.html"
+		},
+		{
+			"name": "FOSDEM 2023",
+			"description": "AA35 / X100F",
+			"type": "photocontent",
+			"page": "2023.html"
 		}
 	]
 }

@@ -1,5 +1,6 @@
 .git
 .gitignore
+/andrezieux_addon/
 /todo/
 /pictures
 /projects/morceauxchoisis/wdir

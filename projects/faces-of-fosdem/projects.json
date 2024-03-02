@@ -41,6 +41,12 @@
 			"description": "AA35 / X100F",
 			"type": "photocontent",
 			"page": "2023.html"
+		},
+		{
+			"name": "FOSDEM 2024",
+			"description": "",
+			"type": "photocontent",
+			"page": "2024.html"
 		}
 	]
 }
